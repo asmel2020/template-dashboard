@@ -1,19 +1,12 @@
-import { useState } from 'react'
-
-import './App.css'
-import { Button } from '@material-tailwind/react'
+import Router from "./router";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    
+      <Router />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
